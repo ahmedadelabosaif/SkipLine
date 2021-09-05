@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttom_nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <include app:graph="@navigation/drawer_nav_graph" />
+    <fragment
+        android:id="@+id/notifications_fragment"
+        android:name="com.example.skiplineplayground.NotificationsFragment"
+        android:label="NotificationsFragment" />
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.skiplineplayground.HomeFragment"
+        android:label="HomeFragment" />
+
+    <fragment
+        android:id="@+id/search_fragment"
+        android:name="com.example.skiplineplayground.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.example.skiplineplayground.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

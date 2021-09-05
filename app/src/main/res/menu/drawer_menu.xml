@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/scanner_fragment"
+            android:icon="@drawable/scanner"
+            android:title="Scanner" />
+        <item
+            android:id="@+id/order_fragment"
+            android:icon="@drawable/create_order"
+            android:title="Order" />
+        <item
+            android:id="@+id/wishlist_fragment"
+            android:icon="@drawable/wishlist"
+            android:title="Wishlist" />
+        <item
+            android:id="@+id/history_fragment"
+            android:icon="@drawable/history"
+            android:title="History" />
+
+        <item
+            android:id="@+id/about_fragment"
+            android:icon="@drawable/about"
+            android:title="About Us" />
+
+    </group>
+
+
+    <group>
+        <item
+            android:id="@+id/dark_mode"
+            android:title="Dark Mode"
+            app:actionLayout="@layout/switch_item"
+            app:showAsAction="always" />
+    </group>
+
+
+</menu>
