@@ -1,2 +1,2 @@
 # SkipLine
- Graduation Progect
+ Graduation Project
